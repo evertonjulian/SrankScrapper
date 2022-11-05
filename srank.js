@@ -1,4 +1,5 @@
 (async() => {
+    alert('testing');
     const response = await fetch('./srank.json')
     const data = await response.json();
 
