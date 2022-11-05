@@ -28,7 +28,7 @@ const rank = require('./rankFiis');
   const fiiListRanked = rank.rankFiis(fiiList)
   
   // escrever os dados em um arquivo local (json)
-  fs.writeFile('3srank.json', JSON.stringify(fiiListRanked, null, 2), err => {
+  fs.writeFile('srank.json', JSON.stringify(fiiListRanked, null, 2), err => {
       if(err) throw new Error('Something went wrong')
 
       console.log('well done!')

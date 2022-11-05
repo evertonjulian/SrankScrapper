@@ -1,5 +1,5 @@
 (async() => {
-    const response = await fetch('./3srank.json')
+    const response = await fetch('./srank.json')
     const data = await response.json();
 
     const htmlList = data
